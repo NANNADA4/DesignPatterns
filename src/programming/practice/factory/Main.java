@@ -7,12 +7,15 @@ public class Main {
 		
 		Pizza pizza = pizzaStore.orderPizza("cheese");
 		System.out.println(pizza + "고객 전달\n");
-		
-		pizza = pizzaStore.orderPizza("greek");
-		System.out.println(pizza + "고객 전달\n");
-		
+
 		pizza = pizzaStore.orderPizza("pepperoni");
 		System.out.println(pizza + "고객 전달\n");
+
+		pizza = pizzaStore.orderPizza("clam");
+		System.out.println(pizza + "고객 전달 \n");
+
+		pizza = pizzaStore.orderPizza("veggie");
+		System.out.println(pizza + "고객 전달 \n");
 	}
 
 }

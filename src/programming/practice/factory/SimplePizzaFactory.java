@@ -1,6 +1,7 @@
 package programming.practice.factory;
 
 public class SimplePizzaFactory {
+
     public Pizza createPizza(String name) {
         Pizza pizza = null;
 

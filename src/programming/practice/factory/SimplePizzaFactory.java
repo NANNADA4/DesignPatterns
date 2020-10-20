@@ -2,7 +2,7 @@ package programming.practice.factory;
 
 public class SimplePizzaFactory {
 
-    public Pizza createPizza(String name) {
+    public static Pizza createPizza(String name) {
         Pizza pizza = null;
 
         if(name.equals("cheese")) {

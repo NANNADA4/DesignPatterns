@@ -16,6 +16,8 @@ public class Main {
 
 		pizza = pizzaStore.orderPizza("veggie");
 		System.out.println(pizza + "고객 전달 \n");
+
+		System.out.println("Hello, World");
 	}
 
 }
